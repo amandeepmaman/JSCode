@@ -1,0 +1,78 @@
+.SmallImages iframe {
+	position: absolute;
+	display: none;
+}
+.SmallImages{
+	margin-bottom: 30px;
+	float: left;
+}
+.SmallImages iframe:first-child {
+	display: inline;
+}
+.MoveNext, .MovePrev, .MoveNextSmall, .MovePrevSmall{
+	height: 25px;
+	width: 16px;
+	cursor: pointer;
+}
+.MainImage{
+	background: white;
+}
+.MoveNextSmall{
+	position: absolute;
+	background: url('../../Images/ScrollRight.png') no-repeat;
+}
+.MoveNext{
+	float: right;
+	background: url('../../Images/ScrollRight.png') no-repeat;
+}
+.MovePrev, .MovePrevSmall{
+	float: left;
+	background: url('../../Images/ScrollLeft.png') no-repeat;
+}
+
+.ThumbNails img{	
+	float:left; 
+	height:65px;
+	width:80px;
+	display:none;
+	border: 7px solid white;
+	margin-right: 10px;
+	margin-top: 10px;
+	background: white;
+}
+.ThumbNails{
+	margin-left: 40px;
+}
+
+.OverLay{
+	background: rgba(0, 0, 0, 0.7);
+	display:none;
+	padding-top:5%;
+	padding-bottom:5%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	overflow-y:auto;
+	z-index: 100;
+}
+
+.ExpandImg{
+	cursor: pointer;
+	width: 35px;
+	display: none;
+	position: absolute;
+	left:-20px;
+	z-index: 1;
+}
+.OverLay .ImageCounter{
+	color:#fff;
+	font-size:18px;
+	margin-top: 10px;
+
+}
+.SmImageCounter{
+	display:none;
+	font-size: 18px;
+	position: absolute;
+}

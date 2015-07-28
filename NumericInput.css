@@ -1,0 +1,18 @@
+/*==============================Version 2.0================================
+=======Release it when GGL_Control.NumericTouchInput is released=========*/
+.NumericTouch img{
+	cursor: pointer;
+}
+.Text_DisplayOutput{
+	color: darkslateblue;
+	text-align: center;
+  	position: absolute;
+}
+.NumericTouch fieldset{
+	display: inline-block;
+	padding-bottom: 20px;
+	border-radius: 5px;
+}
+.NumericTouch fieldset legend{
+	font-size:18px;
+}
